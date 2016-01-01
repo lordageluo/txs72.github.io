@@ -1,37 +1,34 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-          <title>Young's Teaching Site</title>
+<html>
+    <head>
+        <title>测试页面 - Young's Teaching Site</title>
         <meta charset="utf-8" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="http://txs72.github.io/theme/static/css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="http://txs72.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Young's Teaching Site Full Atom Feed" />
         <link href="http://txs72.github.io/feeds/jiao-xue.atom.xml" type="application/atom+xml" rel="alternate" title="Young's Teaching Site Categories Atom Feed" />
+    </head>
 
-
-
-
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://txs72.github.io/">Young's Teaching Site <strong></strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-        </ul></nav><!-- /#menu -->
-<section id="content" class="body">
+    <body id="index" class="archive">
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class=""><a href="http://txs72.github.io">Home</a></li>
+                    <li><a href="http://txs72.github.io/archives.html">Archives</a></li>
+                </ul>
+                <h3 class="text-muted"><a href="http://txs72.github.io">Young's Teaching Site</a></h3>
+				<h2 class="text-muted"></h2>
+             </div>
+<section id="content" class="article content">
   <header>
     <h2 class="entry-title">
       <a href="http://txs72.github.io/ce-shi-ye-mian.html" rel="bookmark"
          title="Permalink to 测试页面">测试页面</a></h2>
  
   </header>
-  <footer class="post-info">
-    <abbr class="published" title="2016-01-01T22:18:00+08:00">
-      2016-01-01
-    </abbr>
-    <address class="vcard author">
-      By           <a class="url fn" href="http://txs72.github.io/author/txs72.html">txs72</a>
-    </address>
-  </footer><!-- /.post-info -->
+  
+     
   <div class="entry-content">
     <p>测试一下pelican制作页面并且上传到github的整体流程，页面采用markdown方式撰写。</p>
 <h1>Heading 1</h1>
@@ -47,12 +44,38 @@
 <h2>title 2</h2>
 <p>$ \sum_{i=1}^j S_i $</p>
   </div><!-- /.entry-content -->
+   <footer class="post-info text-muted">
+    Posted on <abbr class="published" title="2016-01-01T22:18:00+08:00">
+      2016-01-01
+    </abbr>
+    <address class="vcard author">
+      by <a class="url fn" href="http://txs72.github.io/author/txs72.html">txs72</a>
+    </address> in <a href="http://txs72.github.io/category/jiao-xue.html">教学</a> Tagged   </footer><!-- /.post-info -->
 </section>
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-</body>
+    <div class="comment">
+        <div id="disqus_thread"></div> <!-- comment app container -->
+    </div>
+	<!-- Comment BEGIN -->
+    <script type="text/javascript">
+        var disqus_shortname = 'txs72'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+     <!-- Comment END -->
+            <footer id="contentinfo" class="footer">
+                    <nav class="pull-right bottom-nav">
+                        <a href="http://txs72.github.io/feeds/all.atom.xml">RSS</a>
+                    </nav>
+                    <address id="about" class="vcard body">
+                    &copy; <a href="http://txs72.github.io">Young's Teaching Site</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
+                    </address><!-- /#about -->
+            </footer><!-- /#contentinfo -->
+        </div><!-- container -->
+    </body>
 </html>
