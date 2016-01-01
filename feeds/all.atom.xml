@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Young's Teaching Site</title><link href="http://txs72.github.io/" rel="alternate"></link><link href="http://txs72.github.io/feeds/all.atom.xml" rel="self"></link><id>http://txs72.github.io/</id><updated>2016-01-01T23:14:00+08:00</updated><entry><title>2015-2016-seminar-1 考试安排</title><link href="http://txs72.github.io/2015-2016-seminar-1-kao-shi-an-pai.html" rel="alternate"></link><updated>2016-01-01T23:14:00+08:00</updated><author><name>txs72</name></author><id>tag:txs72.github.io,2016-01-01:2015-2016-seminar-1-kao-shi-an-pai.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Java考试  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;时间: 2016年1月26日 10:30~12:30&lt;/p&gt;
+&lt;p&gt;地点: 2-201 2-301&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cpp考试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;未定&lt;/p&gt;</summary></entry><entry><title>测试页面</title><link href="http://txs72.github.io/ce-shi-ye-mian.html" rel="alternate"></link><updated>2016-01-01T22:18:00+08:00</updated><author><name>txs72</name></author><id>tag:txs72.github.io,2016-01-01:ce-shi-ye-mian.html</id><summary type="html">&lt;p&gt;测试一下pelican制作页面并且上传到github的整体流程，页面采用markdown方式撰写。&lt;/p&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;title 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;test list 1&lt;/li&gt;
+&lt;li&gt;test list 2&lt;ul&gt;
+&lt;li&gt;sub list 1&lt;/li&gt;
+&lt;li&gt;sub list 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;title 2&lt;/h2&gt;
+&lt;p&gt;$ \sum_{i=1}^j S_i $&lt;/p&gt;</summary></entry></feed>
