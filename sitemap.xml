@@ -5,41 +5,55 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://txs72.github.io/</loc>
-<lastmod>2016-01-03T18:11:05-00:00</lastmod>
+<lastmod>2016-01-03T20:23:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://txs72.github.io/archives.html</loc>
-<lastmod>2016-01-03T18:11:05-00:00</lastmod>
+<lastmod>2016-01-03T20:23:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://txs72.github.io/tags.html</loc>
-<lastmod>2016-01-03T18:11:05-00:00</lastmod>
+<lastmod>2016-01-03T20:23:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://txs72.github.io/categories.html</loc>
-<lastmod>2016-01-03T18:11:05-00:00</lastmod>
+<lastmod>2016-01-03T20:23:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://txs72.github.io/2015-2016-seminar-1-kao-shi-an-pai.html</loc>
+<loc>http://txs72.github.io/equation-test.html</loc>
+<lastmod>2016-01-03T18:46:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://txs72.github.io/code-test.html</loc>
+<lastmod>2016-01-03T18:31:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://txs72.github.io/2015-2016-seminar-1-notice.html</loc>
 <lastmod>2016-01-01T23:14:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://txs72.github.io/ce-shi-ye-mian.html</loc>
+<loc>http://txs72.github.io/first-page.html</loc>
 <lastmod>2016-01-01T22:18:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

@@ -10,18 +10,18 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="pelican, markdown, github, 教学, " />
+<meta name="keywords" content="Pelican, Markdown, Latex, Equation, 教学, " />
 
-<meta property="og:title" content="测试页面 "/>
-<meta property="og:url" content="http://txs72.github.io/ce-shi-ye-mian.html" />
-<meta property="og:description" content="测试一下pelican制作页面并且上传到github的整体流程，页面采用markdown方式撰写。 参考文献 参考文献1 参考文献2 Heading 1 列表 fruits apples macintosh red delicious pears peaches vegetables brocolli chard 带编号列表 1. first 2. second 3. third 4. fourth 简单公式 \(\sum_{i=1}^j S_i=100\) 图片 Heading 2 block quote This is a block quote. This paragraph has two lines. This ...if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;left&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width" />
+<meta property="og:title" content="equation test "/>
+<meta property="og:url" content="http://txs72.github.io/equation-test.html" />
+<meta property="og:description" content="测试pelican插件render_math对公式的支持能力(需配置参数为MATH_JAX)。 Inlined Math Relevant inline math: $e=mc^2$ Will not render as inline math: $40 vs $50 质能方程 : \(e=mc^2\) Displayed Math Math between $$..$$, for example, $$x^2$$, will be rendered centered in a new paragraph. 简单示例 $$x^2$$ Latex Macros Latex macros are supported, and are ...if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;left&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width" />
 <meta property="og:site_name" content="Young老师的教学主页" />
 <meta property="og:article:author" content="txs72" />
-<meta property="og:article:published_time" content="2016-01-01T22:18:00+08:00" />
-<meta name="twitter:title" content="测试页面 ">
-<meta name="twitter:description" content="测试一下pelican制作页面并且上传到github的整体流程，页面采用markdown方式撰写。 参考文献 参考文献1 参考文献2 Heading 1 列表 fruits apples macintosh red delicious pears peaches vegetables brocolli chard 带编号列表 1. first 2. second 3. third 4. fourth 简单公式 \(\sum_{i=1}^j S_i=100\) 图片 Heading 2 block quote This is a block quote. This paragraph has two lines. This ...if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;left&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width">
+<meta property="og:article:published_time" content="2016-01-03T18:46:00+08:00" />
+<meta name="twitter:title" content="equation test ">
+<meta name="twitter:description" content="测试pelican插件render_math对公式的支持能力(需配置参数为MATH_JAX)。 Inlined Math Relevant inline math: $e=mc^2$ Will not render as inline math: $40 vs $50 质能方程 : \(e=mc^2\) Displayed Math Math between $$..$$, for example, $$x^2$$, will be rendered centered in a new paragraph. 简单示例 $$x^2$$ Latex Macros Latex macros are supported, and are ...if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;left&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width">
 
-        <title>测试页面  · Young老师的教学主页
+        <title>equation test  · Young老师的教学主页
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -61,7 +61,7 @@
 <article>
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="http://txs72.github.io/ce-shi-ye-mian.html"> 测试页面  </a></h1>
+    <h1><a href="http://txs72.github.io/equation-test.html"> equation test  </a></h1>
     </header>
 </div>
 
@@ -69,110 +69,36 @@
         <div class="span8 offset2 article-content">
 
             
-            <p>测试一下pelican制作页面并且上传到github的整体流程，页面采用markdown方式撰写。</p>
-<h1 id="_1">参考文献</h1>
-<p><a href="http://heylinux.com/archives/3337.html">参考文献1</a></p>
-<p><a href="http://blog.atime.me/note/pelican-setup-summary.html">参考文献2</a></p>
-<h1 id="heading-1">Heading 1</h1>
-<h2 id="_2">列表</h2>
+            <p>测试pelican插件render_math对公式的支持能力(需配置参数为MATH_JAX)。</p>
+<h2 id="inlined-math">Inlined Math</h2>
 <ul>
-<li>fruits<ul>
-<li>apples<ul>
-<li>macintosh</li>
-<li>red delicious</li>
-</ul>
+<li><strong>Relevant inline math</strong>: <code>$e=mc^2$</code></li>
+<li>
+<p><strong>Will not render as inline math</strong>: <code>$40 vs $50</code></p>
 </li>
-<li>pears</li>
-<li>peaches</li>
-</ul>
-</li>
-<li>vegetables<ul>
-<li>brocolli</li>
-<li>chard</li>
-</ul>
+<li>
+<p><strong> 质能方程 </strong> : <span class="math">\(e=mc^2\)</span></p>
 </li>
 </ul>
-<p>带编号列表
-1. first
-2. second
-3. third
-4. fourth</p>
-<h2 id="_3">简单公式</h2>
-<p><span class="math">\(\sum_{i=1}^j S_i=100\)</span></p>
-<h2 id="_4">图片</h2>
-<p><img alt="手捧地球" src="images/1.jpg" /></p>
-<h1 id="heading-2">Heading 2</h1>
-<h2 id="block-quote">block quote</h2>
-<blockquote>
-<p>This is a block quote. This
-paragraph has two lines.</p>
-<ol>
-<li>This is a list inside a block quote.</li>
-<li>Second item.</li>
-</ol>
-</blockquote>
-<h2 id="definitions">definitions</h2>
-<dl>
-<dt>Term 1</dt>
-<dd>Definitions 1</dd>
-<dt>Term 2 with <em>inline markup</em></dt>
-<dd>Definition 2
- some code, part of Definition 2
- Third paragraph of definition 2.</dd>
-</dl>
-<p>Term 1
-     ~ Definition 1
-Term 2
-     ~ Definition 2a
-     ~ Definition 2b</p>
-<h2 id="tables">tables</h2>
-<hr />
-<p>Right   Left     Center    Default</p>
-<hr />
-<p>12      12       12            12 
-123     123      123          123 
-1       1         1             1</p>
-<hr />
-<p>Table:  Demonstration of simple table syntax.</p>
-<h2 id="multi-line-tables">multi-line tables</h2>
-<hr />
-<p>Centered   Default           Right Left
-   Header    Aligned         Aligned Aligned</p>
-<hr />
-<div class="highlight"><pre>First    row                12.0 Example of a row that
-                                 spans multiple lines.
-</pre></div>
-
-
-<p>Second    row                 5.0 Here's another one. Note
-                                     the blank line between
-                                     rows.</p>
-<hr />
-<p>Table: Here's the caption. It, too, may span
- multiple lines.</p>
-<hr />
-<div class="highlight"><pre>  First    row                12.0 Example of a row that
-                                   spans multiple lines.
- Second    row                 5.0 Here&#39;s another one. Note
-                                   the blank line between
-                                   rows.
-</pre></div>
-
-
-<hr />
-<dl>
-<dd>Here's a multiline table without headers.</dd>
-</dl>
-<p>Another table</p>
-<p>+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+ </p>
+<h2 id="displayed-math">Displayed Math</h2>
+<p>Math between <code>$$</code>..<code>$$</code>, for example, <code>$$</code>x^2<code>$$</code>, will be rendered centered in a new paragraph.</p>
+<p>简单示例</p>
+<div class="math">$$x^2$$</div>
+<h2 id="latex-macros">Latex Macros</h2>
+<p>Latex macros are supported, and are automatically treated like displayed math 
+(i.e. it is wrapped in <code>div</code> tag). For example, <code>begin{equation}</code> x^2 <code>\end{equation}</code>,
+will be rendered in its own block with a right justified equation number
+at the top of the block. This equation number can be referenced in the document.
+To do this, use a <code>label</code> inside of the equation format and then refer to that label
+using <code>ref</code>. For example: <code>begin{equation}</code> <code>\label{eq}</code> X^2 <code>\end{equation}</code>. Now
+refer to that equation number by <code>$</code>\ref{eq}<code>$</code>.</p>
+<div class="math">\begin{equation}
+\label{eq}
+X^2
+\end{equation}</div>
+<p>参见公式<span class="math">\(\ref{eq}\)</span>...</p>
+<div class="math">$$A_\text{c} = (\pi/4) d^2$$</div>
+<div class="math">$$α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)$$</div>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "left",
         indent = "0em",
@@ -236,7 +162,7 @@ Term 2
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
-                href="http://txs72.github.io/ce-shi-ye-mian.html#disqus_thread">
+                href="http://txs72.github.io/equation-test.html#disqus_thread">
                 Comments
             </a>
         </div>
@@ -246,8 +172,8 @@ Term 2
                     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'txs72';
-        var disqus_identifier = 'http://txs72.github.io/ce-shi-ye-mian.html';
-    var disqus_url = 'http://txs72.github.io/ce-shi-ye-mian.html';
+        var disqus_identifier = 'http://txs72.github.io/equation-test.html';
+    var disqus_url = 'http://txs72.github.io/equation-test.html';
 
     (function() {
          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -270,18 +196,21 @@ Term 2
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2016-01-01T22:18:00+08:00"> 1 1, 2016</time>
+            <time pubdate="pubdate" datetime="2016-01-03T18:46:00+08:00"> 1 3, 2016</time>
             <h4>Category</h4>
             <a class="category-link" href="http://txs72.github.io/categories.html#jiao-xue-ref">教学</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="http://txs72.github.io/tags.html#github-ref">github
+                <li><a href="http://txs72.github.io/tags.html#equation-ref">Equation
                     <span>1</span>
 </a></li>
-                <li><a href="http://txs72.github.io/tags.html#markdown-ref">markdown
+                <li><a href="http://txs72.github.io/tags.html#latex-ref">Latex
+                    <span>1</span>
+</a></li>
+                <li><a href="http://txs72.github.io/tags.html#markdown-ref">Markdown
                     <span>3</span>
 </a></li>
-                <li><a href="http://txs72.github.io/tags.html#pelican-ref">pelican
+                <li><a href="http://txs72.github.io/tags.html#pelican-ref">Pelican
                     <span>3</span>
 </a></li>
             </ul>
